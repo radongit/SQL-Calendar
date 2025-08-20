@@ -12,7 +12,9 @@ datefromparts(
     22
 )
 `
+
 or with getdate():
+
 `datefromparts(
     year(dateadd(d, -21, getdate())),
     month(dateadd(d, -21, getdate())),
